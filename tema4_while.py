@@ -8,5 +8,3 @@ while i <= 10:
     res = x * i
     print("{} x {} = {}".format(x, i, res))
     i += 1
-
-
