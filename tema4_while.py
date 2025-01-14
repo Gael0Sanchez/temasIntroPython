@@ -1,12 +1,12 @@
 x = 0
 i = 1
 
-print("Ingresa un número para generar su tabla de multiplicar")
+print("Ingresa un numero")
 x = int(input("x: "))
 
 while i <= 10:
     res = x * i
-    print(f"{x} x {i} = {res}")
+    print("{} x {} = {}".format(x, i, res))
     i += 1
 
 
